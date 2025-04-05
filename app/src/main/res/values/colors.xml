@@ -1,0 +1,6 @@
+<resources>
+    <color name="primaryColor">#FF4081</color> <!-- Màu hồng cho Primary -->
+    <color name="primaryColorDark">#F50057</color> <!-- Màu hồng đậm cho Primary Dark -->
+    <color name="secondaryColor">#6200EE</color> <!-- Màu tím cho Secondary -->
+    <color name="black">#000000</color>
+</resources>
