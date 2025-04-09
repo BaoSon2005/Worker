@@ -26,6 +26,24 @@
         android:layout_marginBottom="12dp" />
 
     <Button
+        android:id="@+id/btnSelectImage"
+        android:text="Chọn ảnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:backgroundTint="#FFB6C1"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp" />
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="12dp" />
+
+    <Button
         android:id="@+id/btnSelectTime"
         android:text="Chọn thời gian nhắc"
         android:layout_width="match_parent"
@@ -35,17 +53,16 @@
         android:layout_marginBottom="12dp"
         android:padding="12dp" />
 
-    <!-- EditText để hiển thị thời gian -->
     <EditText
         android:id="@+id/edtTime"
         android:hint="Thời gian nhắc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-    android:background="@drawable/edittext_background"
-    android:padding="12dp"
-    android:textSize="16sp"
-    android:layout_marginBottom="12dp" />
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
 
     <Button
         android:id="@+id/btnAdd"

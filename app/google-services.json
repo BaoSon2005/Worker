@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701887186202",
+    "project_id": "alarmworker-96729",
+    "storage_bucket": "alarmworker-96729.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701887186202:android:96ca5479639972333158a3",
+        "android_client_info": {
+          "package_name": "com.example.worker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjrWS4_QMHXatbEUWGTbMyZuh5eb92s3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

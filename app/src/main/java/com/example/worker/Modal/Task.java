@@ -4,42 +4,57 @@ public class Task {
     private String title;
     private String description;
     private String time;
+    private String imageUri; // Thêm dòng này
 
-    // Constructor
+    // Constructor đầy đủ
+    public Task(String title, String description, String time, String imageUri) {
+        this.title = title;
+        this.description = description;
+        this.time = time;
+        this.imageUri = imageUri;
+    }
+
+    // Constructor nếu không có ảnh (tuỳ bạn dùng)
     public Task(String title, String description, String time) {
         this.title = title;
         this.description = description;
         this.time = time;
+        this.imageUri = null;
     }
 
-    // Getters
+    // Getter Setter cho title
     public String getTitle() {
         return title;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public String getTime() {
-        return time;
-    }
-
-    // Setters
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    // Getter Setter cho description
+    public String getDescription() {
+        return description;
     }
 
     public void setDescription(String description) {
         this.description = description;
     }
 
+    // Getter Setter cho time
+    public String getTime() {
+        return time;
+    }
+
     public void setTime(String time) {
         this.time = time;
     }
 
-    // Setter for description (if you want to use it)
-    public void setDesc(String desc) {
-        this.description = desc;
+    // Getter Setter cho imageUri
+    public String getImageUri() {
+        return imageUri;
+    }
+
+    public void setImageUri(String imageUri) {
+        this.imageUri = imageUri;
     }
 }
